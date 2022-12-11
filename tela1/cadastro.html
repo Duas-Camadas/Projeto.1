@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="Style.css">
+    <title>Tela de Cadastro</title>
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    
+
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="/Projeto-main/index.html" class="navbar-brand">
+                    <img id="logo" src="./img/logo.svg" alt="Duas Camadas" title="Página inicial">
+                </a>
+    </header>
+
+
+    <div class="principal" id="form">
+        <form class="px-4 py-3">
+            <h2 class="title">Cadastre-se</h2>
+
+            <label class="label" for="Nome"> E-mail </label>
+            <div class="input">
+                <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+
+            <label class="label" for="Senha"> Senha </label>
+            <div class="input">
+                <input type="password" class="form-control" id="senha" placeholder="Insira a senha">
+            </div>
+
+            <label class="label" for="Senha"> Confirmar senha </label>
+            <div class="input">
+                <input type="password" class="form-control" id="confirmarsenha" placeholder="Insira a senha novamente">
+            </div>
+
+            <div id="btn">
+      <a href=""> <button class="btn1" type="submit" id="btn"><span>Continuar</span></a>
+            </div>
+
+            <br>
+        </form>
+        <div class="dropdown-divider" id="final"></div>
+        <!-- linkar tela -->
+        <a class="item" href="/tela2/conectese.html">Já tem uma conta? Então conecte-se</a> <br><br>
+    </div>
+</body>
+
+</html>

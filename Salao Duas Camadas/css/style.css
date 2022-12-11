@@ -1,0 +1,248 @@
+.curves {
+    background-image: url(../img/Ellipse_47-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 87.5rem;
+}
+
+.curves img {
+    position: relative;
+    right: 4.3rem;
+    top: 4rem;
+}
+
+.curves h1 {
+    position: relative;
+    bottom: 3rem;
+    right: 15px;
+    font-family: 'Coolvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 79px;
+    color: #000000;
+}
+
+.curves p {
+    position: relative;
+    top: 40px;
+    right: 500px;
+    font-family: 'Coolvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    color: #000000;
+
+}
+
+.curves h2 {
+    position: relative;
+    right: 25px;
+    bottom: 70px;
+    font-family: 'Coolvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 62px;
+
+    color: #000000;
+}
+
+
+
+/* .btn-link {
+    text-decoration: none;
+    position: relative;
+    bottom: 8px;
+    width: 250px;
+    height: 250px;
+    left: 600px;
+    bottom: 30px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+}
+.btn-link img {
+    position: relative;
+    bottom: 7px;
+
+} */
+
+
+
+
+.star img {
+    position: relative;
+    left: 15px;
+}
+
+.schedule p {
+    position: relative;
+    left: 20px;
+    top: 6px;
+
+    font-family: 'Coolvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 66px;
+
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+.horario h2 {
+    position: relative;
+
+    left: 50px;
+    top: 100px;
+
+    font-family: 'Coolvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+
+    color: #000000;
+
+}
+
+.trabalho h2 {
+    position: relative;
+    left: 50px;
+    top: 250px;
+
+    font-family: 'Coolvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+
+}
+
+.portfolio img {
+    position: relative;
+    margin-left: 10px;
+    left: 40px;
+    top: 280px;
+}
+
+/* heart */
+.salao::before{
+    content: "\2605";
+  }
+  .salao.ativo ~ .salao::before{
+    content: "\2606";
+  }
+  .avaliacao:hover .salao::before{
+    content: "\2605";
+  }
+  .salao:hover ~ .salao::before{
+    content: "\2606";
+  }
+
+
+/* Barra de pesquisa */
+.search-box {
+    position: relative;
+    right: 400px;
+    background-color: #fff;
+    height: 50px;
+    width: 340px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fe8fd2;
+}
+
+.search-text {
+    background-color: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding: 0;
+    transition: 0.4s;
+}
+
+.search-btn {
+    position: relative;
+    left: 80px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box:hover>.search-text {
+    width: 350px;
+    padding-left: 10px;
+    transition: 0.6s;
+
+}
+
+.search-box:hover>.search-btn {
+    background-color: #FF0099;
+}
+
+.search-box:hover>.search-btn .loupe-pink {
+    display: none;
+}
+
+.search-box:hover>.search-btn .loupe-white {
+    display: block;
+}
+
+/* /Display: block = vai fazer aparecer a lupa branca/ */
+
+.loupe-white {
+    display: none;
+}
+
+
+/* footer */
+
+.footer{
+    margin-top: 13%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer .share{
+    padding:1rem 0;
+}
+
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #000;;
+   
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+
+.footer .links{
+ 
+
+    padding:2rem 0;
+    gap:1rem;
+}
+
+.footer .links a{
+    padding:.7rem 2rem;
+    color:#000;
+   
+    font-size: 15px;
+}
